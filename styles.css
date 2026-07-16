@@ -625,6 +625,21 @@ a.card-link:hover svg {
   margin-bottom: 52px;
 }
 
+.cris-head-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.cris-head-top .mono-label {
+  margin-bottom: 0;
+}
+
+.cris-demo-cta {
+  margin-top: 28px;
+}
+
 .cris-head h2 {
   font-family: "Sora", sans-serif;
   font-weight: 700;
@@ -728,6 +743,11 @@ a.card-link:hover svg {
 }
 
 .product-status.live {
+  color: var(--accent);
+  border: 1px solid var(--accent-soft);
+}
+
+.card-catchit .product-status.live {
   color: var(--catchit-lime);
   border: 1px solid rgba(199, 240, 74, 0.3);
 }
